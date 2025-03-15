@@ -4,6 +4,7 @@ setup = function() {
 };
 
 mouseClicked = function(){
+answer = round(random(1, 5));
 };
 
 //draw

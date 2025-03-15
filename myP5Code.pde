@@ -4,7 +4,6 @@ setup = function() {
 };
 
 mouseClicked = function(){
-answer = round(random(1, 5));
 };
 
 //draw
@@ -30,8 +29,8 @@ textSize (50);
     text("#4", 160, 250); 
   }
   if (mousePressed && mouseY < 200 && mouseX < 200){
-    text("G7", 160, 190);
-    text("#2", 160, 250); 
+    text("G7", random(0,160), random(0,190));
+    text("#2", random(0,160), random(0, 250)); 
   }
   if (mousePressed && mouseY > 200 && mouseX > 200){
   text("G7", 160, 190);
